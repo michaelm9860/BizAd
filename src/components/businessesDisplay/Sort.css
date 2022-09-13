@@ -1,0 +1,30 @@
+.cards-sorting{
+    display: flex;
+    padding-inline: 16px;
+    justify-content: space-between;
+}
+
+.cards-sorting .search-container{
+    min-width: 200px;
+    position: relative;
+    min-height: 30px;
+    display: flex;
+    /* border: 1px solid gray; */
+}
+
+.cards-sorting .search-container button{
+    height: 100%;
+    position: absolute;
+}
+
+.cards-sorting .search-container input{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    border: 1px solid gray;
+}
+
+.cards-sorting .search-container input:focus{
+    outline: none;
+}
+

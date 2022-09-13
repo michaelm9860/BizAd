@@ -1,0 +1,21 @@
+nav {
+  background-color: #0d6efd;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  padding-inline: 8px;
+}
+
+nav .brand{
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+
+nav .nav-options {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}

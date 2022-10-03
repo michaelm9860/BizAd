@@ -1,14 +1,20 @@
-import './App.css';
-import Featured from './components/businessesDisplay/Featured';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import About from "./components/About/About";
+import Featured from "./components/businessesDisplay/Featured";
+import Navbar from "./components/navbar/Navbar";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Header/>
-      <Featured/>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Featured />} />
+        <Route path="/about" element={<About/>}/>
+        <Route path="/services" element={<Services/>}/>
+      </Routes>
     </>
   );
 }

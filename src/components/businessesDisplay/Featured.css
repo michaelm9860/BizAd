@@ -1,11 +1,19 @@
-.business-cards{
+.grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    row-gap: 50px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
 }
 
 .business-cards .card{
-    height: 500px;
+    height: auto;
     width: 350px;
     box-shadow: 5px 5px 15px gray;
 }
@@ -41,6 +49,7 @@
     color: gray;
     font-size: 16px;
     margin-bottom: 16px;
+    min-height: 45px;
 }
 
 .business-cards .card .card-info .phone{

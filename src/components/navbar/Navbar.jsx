@@ -1,19 +1,20 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 function Navbar() {
     return (
         <nav>
-            <div className="brand">
+            <Link to={"/"} className="brand">
             <i className="bi bi-building"></i>
             <span>BizAd</span>
-            </div>
+            </Link>
             <div className="nav-options">
-                <span>
+                <Link to={'/services'}>
                     Services
-                </span>
-                <span>
+                </Link>
+                <Link to={'/about'}>
                     About
-                </span>
+                </Link>
             </div>
         </nav>
     );

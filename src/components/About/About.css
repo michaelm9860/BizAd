@@ -1,0 +1,18 @@
+.about-content{
+    color: gray;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.about-content button{
+    margin-top: 20px;
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}

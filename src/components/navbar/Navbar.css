@@ -11,11 +11,18 @@ nav {
 nav .brand{
   display: flex;
   justify-content: space-between;
-  width: 70px;
+  width: 60px;
+  color: white;
+  text-decoration: none;
 }
 
 nav .nav-options {
   display: flex;
   justify-content: space-between;
   width: 110px;
+}
+
+nav .nav-options a{
+  color: white;
+  text-decoration: none;
 }

@@ -2,6 +2,8 @@
     display: flex;
     padding-inline: 16px;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .cards-sorting .search-container{
@@ -9,22 +11,40 @@
     position: relative;
     min-height: 30px;
     display: flex;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
 }
 
-.cards-sorting .search-container button{
+.cards-sorting .search-container label{
     height: 100%;
     position: absolute;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding-inline: 5px;
 }
 
 .cards-sorting .search-container input{
     height: 100%;
     width: 100%;
     padding: 0%;
-    border: 1px solid gray;
+    border: none;
+    padding-left: 30px;    
 }
 
 .cards-sorting .search-container input:focus{
     outline: none;
 }
 
+.cards-sorting .set-display{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-sorting .set-display .display-button{
+    border: none;
+    background-color: #0d6efd;
+    color: white;
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,48 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+.services-container .services-header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.services-container .services-header .service-column-head {
+  font-weight: bold;
+}
+.services-container .services-header .service-column-head:nth-child(2) {
+  position: absolute;
+  left: 350px;
+}
+.services-container .service {
+  border-top: 1px solid gray;
+  background-color: rgb(240, 240, 240);
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.services-container .service:last-child {
+  border-bottom: 1px solid gray;
+}
+.services-container .service .status {
+  color: white;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 6px;
+  position: absolute;
+  left: 350px;
+}
+.services-container .service .active {
+  background-color: green;
+}
+.services-container .service .disabled {
+  background-color: gray;
+}
+.services-container .service .remove-button {
+  border: 1px solid black;
+  position: absolute;
+  left: 700px;
+}/*# sourceMappingURL=Services.css.map */
